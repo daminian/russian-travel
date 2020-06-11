@@ -1,0 +1,9 @@
+@import url(./__content/root__content.css);
+
+.root {
+    background-color: #2A2C2F;
+    font-family: 'Inter', Arial, sans-serif;
+    margin: 0 auto;
+    color: #ffffff;
+    max-width: 1920px;
+}

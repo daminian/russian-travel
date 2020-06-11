@@ -1,0 +1,8 @@
+.cover__overlay {
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    height: 740px; 
+    text-decoration: none;
+    color: #fff;
+}
