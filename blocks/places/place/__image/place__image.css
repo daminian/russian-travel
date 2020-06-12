@@ -1,4 +1,23 @@
 .place__image {
+    height: 460px;
     width: 100%;
-    grid-column-start: 1;
+    grid-row: 2/4;
+}
+
+@media screen and (max-width:1024px) {
+    .place__image {
+        height: 440px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .place__image {
+        height: 340px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .place__image {
+        height: 320px;
+    }
 }

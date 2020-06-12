@@ -1,3 +1,4 @@
+@import url(../vendor/normalize.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/lead/lead.css);
@@ -6,5 +7,4 @@
 @import url(../blocks/places/places.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
-@import url(../vendor/normalaize.css);
 @import url(../vendor/Inter/inter.css);
