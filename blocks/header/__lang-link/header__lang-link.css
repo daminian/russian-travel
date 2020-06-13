@@ -12,7 +12,7 @@
     margin: 0;
 }
 
-@media and (max-width:320px) {
+@media and (max-width:425px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 1.33;
