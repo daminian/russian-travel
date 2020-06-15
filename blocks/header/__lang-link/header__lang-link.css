@@ -3,16 +3,17 @@
     line-height: 1.17;
     font-style: normal;
     font-weight: normal;
-    margin-right: 18px;
+    margin: 0;
     text-decoration: none;
     color: #fff;
+    transition: opacity 0.3s ease;
 }
 
-.header__lang-link:last-of-type {
-    margin: 0;
+.header__lang-link:hover {
+    opacity: 0.8;
 }
 
-@media and (max-width:425px) {
+@media screen and (max-width:425px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 1.33;

@@ -1,4 +1,5 @@
 .header__links {
     align-items: flex-end;
     display: flex;
+    list-style-type: none;
 }

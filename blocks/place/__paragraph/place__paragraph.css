@@ -5,10 +5,6 @@
     grid-column: 2;
 }
 
-.place__paragraph:nth-of-type(2) {
-    align-self: end;
-}
-
 @media screen and (max-width:768px) {
     .place__paragraph {
         font-size: 16px;
