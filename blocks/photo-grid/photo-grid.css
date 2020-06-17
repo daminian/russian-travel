@@ -3,31 +3,31 @@
 .photo-grid {
     padding: 92px 48px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 284px);
     grid-gap: 16px;
     justify-content: center;
 
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1190px) {
     .photo-grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3,300px);
         grid-gap: 14px;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:980px) {
     .photo-grid {
         padding: 88px 24px; 
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 352px);
         grid-gap: 16px;
     }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:758px) {
     .photo-grid {
         padding: 64px 16px;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 288px);
         grid-gap: 12px;
     }
 }
